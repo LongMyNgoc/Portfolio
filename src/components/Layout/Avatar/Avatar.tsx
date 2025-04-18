@@ -7,8 +7,8 @@ const Avatar = () => {
     <Image
       src="/assets/Long.png"
       alt="Avatar"
-      width={160}
-      height={160}
+      width={200}
+      height={200}
       className="rounded-full border-4 border-white shadow-xl hover:scale-105 transition-transform duration-300"
       priority
     />

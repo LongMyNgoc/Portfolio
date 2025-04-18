@@ -1,5 +1,7 @@
 import MainNavbar from "@/components/Layout/Navbar/MainNabar";
 import Avatar from "@/components/Layout/Avatar/Avatar";
+import Introduction from "@/components/Home/Introduction";
+import Footer from "@/components/Layout/Footer/Footer";
 
 export default function Home() {
   return (
@@ -8,12 +10,12 @@ export default function Home() {
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
     >
       <MainNavbar />
-      
-      {/* Container dưới navbar */}
-      <div className="pt-20 pl-6"> {/* 👈 tạo khoảng cách từ top xuống */}
+
+      <div className="pt-20 pl-6 flex items-start gap-10"> {/* Sử dụng flex để căn chỉnh bên cạnh */}
         <Avatar />
-        {/* Các nội dung khác */}
+        <Introduction />
       </div>
+      <Footer />
     </div>
   );
 }
