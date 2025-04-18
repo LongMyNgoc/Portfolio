@@ -7,7 +7,8 @@ import Link from "next/link";
 
 const WebNavbar = () => {
   return (
-    <nav className="hidden md:flex space-x-8 items-center text-white text-2xl font-semibold"> {/* Sử dụng text-xl để chữ lớn hơn */}
+    <nav className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 items-start md:items-center text-white text-2xl font-semibold">
+ {/* Sử dụng text-xl để chữ lớn hơn */}
       <Link
         href="/"
         className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110"
