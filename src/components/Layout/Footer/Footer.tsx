@@ -6,7 +6,7 @@ const Footer = () => {
     const currentYear: number = new Date().getFullYear();
 
     return (
-        <footer className="bg-dark text-white py-3 mt-auto fixed-bottom w-full">
+        <footer className="bg-dark text-white py-3 w-full fixed bottom-0 left-0">
             <div className="container grid grid-cols-3 gap-4 items-center">
                 {/* Phần thông tin liên hệ bên trái */}
                 <div className="flex justify-start gap-4">
