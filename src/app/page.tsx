@@ -6,21 +6,16 @@ import Footer from "@/components/Layout/Footer/Footer";
 export default function Home() {
   return (
     <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
+      className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
     >
       <MainNavbar />
 
-      <div className="pt-20 pl-6 flex flex-col md:flex-row items-start gap-10">
+      <div className="pt-20 pl-6 flex flex-col md:flex-row items-start gap-10 flex-grow">
         <Avatar />
         <Introduction />
       </div>
-      <Avatar />
-      <Introduction />
-      {/* Đảm bảo footer không bị che mất nội dung */}
-      <div className="pb-24">  {/* Thêm không gian dưới cùng để footer không che mất nội dung */}
       <Footer />
-      </div> 
     </div>
   );
 }
