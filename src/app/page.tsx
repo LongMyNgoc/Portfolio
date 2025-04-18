@@ -6,7 +6,7 @@ import Footer from "@/components/Layout/Footer/Footer";
 export default function Home() {
   return (
     <div
-      className="min-h-screen bg-cover bg-center bg-no-repeat"
+      className="min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: "url('/assets/background.jpg')" }}
     >
       <MainNavbar />
@@ -15,6 +15,10 @@ export default function Home() {
         <Avatar />
         <Introduction />
       </div>
+
+      {/* Đảm bảo footer không bị che mất nội dung */}
+      <div className="pb-24"></div>  {/* Thêm không gian dưới cùng để footer không che mất nội dung */}
+
       <Footer />
     </div>
   );
