@@ -2,7 +2,6 @@
 
 import React from "react";
 import WebNavbar from "./WebNavbar";
-import MobileNavbar from "./MobileNavbar";
 
 const MainNavbar = () => {
     return (
@@ -12,12 +11,9 @@ const MainNavbar = () => {
                     Portfolio
                 </h2>
 
-                {/* Navbar hiển thị theo màn hình */}
-                <div className="hidden md:flex">
+                {/* Luôn hiển thị WebNavbar */}
+                <div className="flex">
                     <WebNavbar />
-                </div>
-                <div className="md:hidden">
-                    <MobileNavbar />
                 </div>
             </div>
         </header>
