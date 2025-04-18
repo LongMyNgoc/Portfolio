@@ -15,9 +15,10 @@ export default function Home() {
         <Avatar />
         <Introduction />
       </div>
-
+      <Avatar />
+      <Introduction />
       {/* Đảm bảo footer không bị che mất nội dung */}
-      <div className="mt-24">  {/* Thêm không gian dưới cùng để footer không che mất nội dung */}
+      <div className="pb-24">  {/* Thêm không gian dưới cùng để footer không che mất nội dung */}
       <Footer />
       </div> 
     </div>
