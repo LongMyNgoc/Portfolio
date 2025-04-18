@@ -11,7 +11,7 @@ export default function Home() {
     >
       <MainNavbar />
 
-      <div className="pt-20 pl-6 flex items-start gap-10"> {/* Sử dụng flex để căn chỉnh bên cạnh */}
+      <div className="pt-20 pl-6 flex flex-col md:flex-row items-start gap-10">
         <Avatar />
         <Introduction />
       </div>
