@@ -3,7 +3,7 @@ import Avatar from "@/components/Layout/Avatar/Avatar";
 import Introduction from "@/components/Home/Introduction";
 import Footer from "@/components/Layout/Footer/Footer";
 
-export default function AboutPage() {
+export default function About() {
   return (
     <div
       className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
