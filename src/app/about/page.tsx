@@ -1,5 +1,6 @@
 import MainNavbar from "@/components/Layout/Navbar/MainNabar";
 import Avatar from "@/components/Layout/Avatar/Avatar";
+import Introduction from "@/components/Home/Introduction";
 import Footer from "@/components/Layout/Footer/Footer";
 
 export default function AboutPage() {
@@ -16,6 +17,10 @@ export default function AboutPage() {
           <Avatar />
         </div>
 
+        {/* Căn chỉnh phần Introduction */}
+        <div className="flex justify-center md:justify-start w-full md:w-2/3">
+          <Introduction />
+        </div>
       </div>
 
       <Footer />
