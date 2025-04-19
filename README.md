@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Web Portfolio Cá Nhân
 
-## Getting Started
+<p align="center">
+  <img src="assets/Web.png" alt="Web Giao Diện" width="300" />
+  <img src="assets/Mobile.png" alt="Mobile Giao Diện" width="150" />
+</p>
 
-First, run the development server:
+## Giới thiệu
+Đây là **web portfolio cá nhân** được xây dựng bằng [Next.js](https://nextjs.org). Trang web giới thiệu các dự án, kỹ năng và thông tin liên hệ, giúp thể hiện năng lực và kinh nghiệm của cá nhân trong lĩnh vực lập trình và phát triển phần mềm.
 
+## Tính năng chính
+- **Giới thiệu bản thân**: Hình ảnh, tiểu sử, định hướng nghề nghiệp.
+- **Dự án đã thực hiện**: Danh sách các project nổi bật với mô tả và liên kết demo/source.
+- **Kỹ năng**: Hiển thị các công nghệ đã sử dụng (Frontend, Backend, Tools,...).
+- **Thông tin liên hệ**: Email, LinkedIn và các nền tảng khác.
+- **Responsive**: Hiển thị đẹp trên cả desktop và mobile.
+
+## Công nghệ sử dụng
+- **Next.js**: Framework chính cho frontend.
+- **React**: Thư viện UI.
+- **Tailwind CSS** *(nếu dùng)*: Thiết kế giao diện nhanh, tiện lợi.
+- **TypeScript**: Kiểu dữ liệu tĩnh, dễ bảo trì.
+- **Vercel**: Hosting & triển khai tự động.
+
+## Yêu cầu hệ thống
+- Node.js phiên bản khuyến nghị: **>= 20.17.0**
+- Hệ điều hành: Windows, macOS, hoặc Linux
+
+## Cài đặt & chạy dự án
+
+### 1. Cài dependencies
+```bash
+npm install
+# hoặc
+yarn install
+```
+### 2. Chạy server phát triển
 ```bash
 npm run dev
-# or
+# hoặc
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+- Mở trình duyệt và truy cập http://localhost:3000 để xem giao diện.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Liên kết liên quan
+- GitHub (Source code): https://github.com/LongMyNgoc/Portfolio
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Website (Demo): https://nguyenphilongportfolio.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Thông tin liên hệ
+📧 Email: nguyenphilong.dev@gmail.com
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Đóng góp
+Mọi ý kiến đóng góp và phản hồi đều được hoan nghênh! Bạn có thể tạo issue hoặc gửi pull request để cùng phát triển dự án.
