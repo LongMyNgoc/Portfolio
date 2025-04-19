@@ -1,8 +1,8 @@
 # Web Portfolio Cá Nhân
 
 <p align="center">
-  <img src="public/assets/Web.png" alt="Web Giao Diện" width="65%" />
-  <img src="public/assets/Mobile.png" alt="Mobile Giao Diện" width="25%" />
+  <img src="public/assets/Web.png" alt="Web Giao Diện" height="300" />
+  <img src="public/assets/Mobile.png" alt="Mobile Giao Diện" height="300" />
 </p>
 
 ## Giới thiệu
@@ -18,7 +18,7 @@
 ## Công nghệ sử dụng
 - **Next.js**: Framework chính cho frontend.
 - **React**: Thư viện UI.
-- **Tailwind CSS** *(nếu dùng)*: Thiết kế giao diện nhanh, tiện lợi.
+- **Tailwind CSS**: Thiết kế giao diện nhanh, tiện lợi.
 - **TypeScript**: Kiểu dữ liệu tĩnh, dễ bảo trì.
 - **Vercel**: Hosting & triển khai tự động.
 
