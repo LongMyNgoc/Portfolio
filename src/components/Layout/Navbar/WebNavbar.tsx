@@ -17,21 +17,21 @@ const WebNavbar = () => {
         <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Home</span>
       </Link>
       <Link
-        href="/pages/about"
+        href="/about"
         className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110 no-underline"
       >
         <Info fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
         <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">About</span>
       </Link>
       <Link
-        href="/pages/projects"
+        href="/projects"
         className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110 no-underline"
       >
         <Work fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
         <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Projects</span>
       </Link>
       <Link
-        href="/pages/resume"
+        href="/resume"
         className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110 no-underline"
       >
         <Description fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
@@ -39,7 +39,7 @@ const WebNavbar = () => {
       </Link>
 
       <a
-        href="https://yourblog.com"
+        href="https://github.com/LongMyNgoc/Portfolio"
         target="_blank"
         rel="noreferrer"
         className="ml-4 px-4 py-2 border border-white rounded-md flex items-center gap-3 hover:bg-yellow-500 hover:text-white transition-all duration-500 transform hover:scale-110"
