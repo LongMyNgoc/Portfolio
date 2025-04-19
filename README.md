@@ -1,8 +1,8 @@
 # Web Portfolio Cá Nhân
 
 <p align="center">
-  <img src="assets/Web.png" alt="Web Giao Diện" width="300" />
-  <img src="assets/Mobile.png" alt="Mobile Giao Diện" width="150" />
+  <img src="public/assets/Web.png" alt="Web Giao Diện" width="400" />
+  <img src="public/assets/Mobile.png" alt="Mobile Giao Diện" width="200" />
 </p>
 
 ## Giới thiệu
