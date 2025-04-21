@@ -3,8 +3,6 @@ import Avatar from "@/components/Layout/Avatar/Avatar";
 import CareerObjective from "@/components/About/CareerObjective";
 import Footer from "@/components/Layout/Footer/Footer";
 import About from "@/components/About/About";
-import Education from "@/components/About/Education";
-import Certificates from "@/components/About/Certificates";
 
 export default function AboutPage() {
   return (
@@ -23,16 +21,6 @@ export default function AboutPage() {
         {/* Căn chỉnh phần CareerObjective */}
         <div className="flex justify-center md:justify-start w-full md:w-2/3">
           <CareerObjective />
-        </div>
-      </div>
-
-      {/* Thêm Education và Certificates vào About */}
-      <div className="mt-10 mb-16 grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div>
-          <Education />
-        </div>
-        <div>
-          <Certificates />
         </div>
       </div>
 

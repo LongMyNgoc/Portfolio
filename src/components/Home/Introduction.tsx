@@ -9,17 +9,18 @@ const Introduction = () => {
         👋 Hi, I&apos;m <span className="text-yellow-400">Nguyễn Phi Long</span>
       </h1>
       <p className="text-lg sm:text-xl md:text-2xl font-semibold leading-relaxed text-shadow-lg">
+        I graduated from <span className="text-yellow-300 font-semibold">Ho Chi Minh City University of Education</span> (2022-2026), 
+        where I honed my skills in software development and gained hands-on experience with various technologies.
+        <br /><br />
         I&apos;m a <span className="text-yellow-300 font-semibold">Software Developer </span>
-        passionate about building clean, scalable, and user-focused applications across 
-        <span className="text-yellow-300 font-semibold"> web</span>, <span className="text-yellow-300 font-semibold">mobile</span>
-        , and <span className="text-yellow-300 font-semibold">game </span>
-        platforms. I enjoy working with technologies like <span className="text-yellow-300 font-semibold">React</span>
-        , <span className="text-yellow-300 font-semibold">Next.js</span>, <span className="text-yellow-300 font-semibold">
-          React Native</span>, <span className="text-yellow-300 font-semibold">FastAPI</span>, 
-        <span className="text-yellow-300 font-semibold"> Express.js</span>, <span className="text-yellow-300 font-semibold">
-          NestJS</span>, and <span className="text-yellow-300 font-semibold">Unity</span>.
+        passionate about building clean, scalable, and user-focused applications across
+        <span className="text-yellow-300 font-semibold"> web</span>, <span className="text-yellow-300 font-semibold">mobile</span>,
+        and <span className="text-yellow-300 font-semibold">game</span> platforms.
         <br /><br />
         I&apos;m always excited to turn ideas into reality and continuously explore new tools in the ever-evolving tech world.
+        <br /><br />
+        In addition to my technical skills, I value <span className="text-yellow-300 font-semibold">hard work</span>, <span className="text-yellow-300 font-semibold">self-learning</span>,
+        <span className="text-yellow-300 font-semibold"> teamwork</span>, and <span className="text-yellow-300 font-semibold">time management</span> as key components of my personal and professional growth.
       </p>
     </div>
   );

@@ -18,11 +18,10 @@ export default function Home() {
         </div>
 
         {/* Căn chỉnh phần Introduction */}
-        <div className="flex justify-center md:justify-start w-full md:w-2/3">
+        <div className="flex justify-center md:justify-start w-full md:w-2/3 mb-16">
           <Introduction />
         </div>
       </div>
-
       <Footer />
     </div>
   );
