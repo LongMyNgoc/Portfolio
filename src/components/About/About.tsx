@@ -8,6 +8,7 @@ import { CloudSkills } from "@/data/CloudSkills";
 import { ToolSkills } from "@/data/ToolSkills";
 import { MobileSkills } from "@/data/MobileSkills";
 import { GameSkills } from "@/data/GameSkills";
+import { APISkills } from "@/data/APISkills";
 
 const About: React.FC = () => {
   return (
@@ -70,6 +71,14 @@ const About: React.FC = () => {
         <h2 className={styles.skillsTitle}>Mobile Skills</h2>
         <div className={styles.skillsWrapper}>
           {MobileSkills.map((skill, index) => (
+            <SkillCard key={index} name={skill.name} image={skill.image} />
+          ))}
+        </div>
+      </div>
+      <div className={styles.skillsSection}>
+        <h2 className={styles.skillsTitle}>API Skills</h2>
+        <div className={styles.skillsWrapper}>
+          {APISkills.map((skill, index) => (
             <SkillCard key={index} name={skill.name} image={skill.image} />
           ))}
         </div>
