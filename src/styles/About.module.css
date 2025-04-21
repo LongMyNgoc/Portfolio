@@ -1,0 +1,22 @@
+.aboutContainer {
+    padding: 1rem;
+    margin-top: 40px;
+  }
+  
+  .skillsTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #facc15; /* yellow-400 */
+    margin-bottom: 30px;
+  }
+  
+  .skillsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+  .skillsSection {
+    margin-bottom: 40px; /* Thêm khoảng cách giữa các phần skill */
+  }

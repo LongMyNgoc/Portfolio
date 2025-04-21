@@ -15,18 +15,18 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Nguyễn Phi Long | Portfolio",
-  description: "Personal portfolio of Nguyễn Phi Long - Web developer specialized in React, Next.js, and Node.js.",
+  description: "Nguyễn Phi Long's Portfolio - Web Developer specializing in React, Next.js, and Node.js",
   icons: {
-    icon: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",  // GitHub logo SVG
+    icon: "/assets/Long.png",  // GitHub logo SVG
   },
-  keywords: ["Nguyễn Phi Long", "Portfolio", "Web Developer", "Frontend", "React", "Next.js", "Node.js"],
-  authors: [{ name: "Nguyễn Phi Long", url: "https://your-domain.com" }],
+  keywords: ["Nguyễn Phi Long", "Portfolio", "Web Developer", "React", "Next.js", "Node.js", "Frontend Developer", "TypeScript Developer", "React Native"],
+  authors: [{ name: "Nguyễn Phi Long", url: "https://nguyenphilongportfolio.vercel.app/" }],
   creator: "Nguyễn Phi Long",
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://nguyenphilongportfolio.vercel.app/"),
   openGraph: {
     title: "Nguyễn Phi Long | Portfolio",
     description: "Explore the personal portfolio of Nguyễn Phi Long - A modern, professional Web Developer.",
-    url: "https://your-domain.com",
+    url: "https://nguyenphilongportfolio.vercel.app/",
     siteName: "Nguyễn Phi Long Portfolio",
     images: [
       {
@@ -38,13 +38,6 @@ export const metadata: Metadata = {
     ],
     locale: "en", // Set the locale to English (United States)
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Nguyễn Phi Long | Portfolio",
-    description: "Explore the portfolio of Nguyễn Phi Long.",
-    images: ["/og-image.png"],
-    creator: "@your_twitter_handle",
   },
 };
 
