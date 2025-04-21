@@ -1,6 +1,6 @@
   export const GameSkills = [
-    { name: "Unity", image: "/assets/skills/Unity.png" },
-    { name: "C#", image: "/assets/skills/CSharp.png" },
-    { name: "C++", image: "/assets/skills/C++.png" },
+    { name: "Unity", image: "/assets/Skills/Unity.png" },
+    { name: "C#", image: "/assets/Skills/CSharp.png" },
+    { name: "C++", image: "/assets/Skills/C++.png" },
   ];
   
