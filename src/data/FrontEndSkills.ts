@@ -1,6 +1,4 @@
-import { Skill } from "@/hooks/SkillCard";
-  
-  export const FrontEndSkills: Skill[] = [
+  export const FrontEndSkills = [
     { name: "Vite.js", image: "assets/skills/Vite.js.png" },
     { name: "React", image: "assets/skills/React.png" },
     { name: "Next.js", image: "assets/skills/Next.js.png" },

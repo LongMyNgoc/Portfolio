@@ -1,6 +1,4 @@
-import { Skill } from "@/hooks/SkillCard";
-  
-  export const ToolSkills: Skill[] = [
+  export const ToolSkills = [
     { name: "Visual Studio Code", image: "assets/skills/Visual Studio Code.png" },
     { name: "Visual Studio 2022", image: "assets/skills/Visual Studio.png" },
     { name: "Git", image: "assets/skills/Git.png" },

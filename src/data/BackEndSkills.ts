@@ -1,6 +1,4 @@
-import { Skill } from "@/hooks/SkillCard";
-  
-  export const BackEndSkills: Skill[] = [
+  export const BackEndSkills = [
     { name: "Node.js", image: "assets/skills/Node.js.png" },
     { name: "Express.js", image: "assets/skills/Express.png" },
     { name: "Nest.js", image: "assets/skills/Nest.js.png" },

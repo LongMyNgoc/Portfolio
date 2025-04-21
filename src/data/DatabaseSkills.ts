@@ -1,6 +1,4 @@
-import { Skill } from "@/hooks/SkillCard";
-  
-  export const DatabaseSkills: Skill[] = [
+  export const DatabaseSkills = [
     { name: "MongoDB", image: "assets/skills/MongoDB.png" },
     { name: "Firebase", image: "assets/skills/Firebase.png" },
     { name: "SQL Server", image: "assets/skills/SQL Server.png" },
