@@ -23,7 +23,7 @@ const GithubCard: React.FC<GithubCardProps> = ({
         <img
           src={image_url}
           alt={`${name} screenshot`}
-          className="w-full h-60 object-contain rounded-md mb-3 bg-gray-100"
+          className="w-full object-contain rounded-md mb-3 bg-gray-100"
         />
         <h2 className="text-lg font-semibold mb-1 text-center">{name}</h2>
         <p className="text-sm text-gray-600">{description}</p>
