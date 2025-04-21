@@ -45,7 +45,7 @@ export type Project = {
     {
       name: "Pokedex App",
       description:
-        "Designed and developed a personal portfolio website to show-case profile, skills, and featured projects. Built with a responsive layout, optimized performance, and smooth experience across desktop and mobile.",
+        "Built a mobile Pokedex application that allows users to browse, search, and filter all 1000+ Pokémon using data from the PokeAPI. Implemented infinite scrolling, detailed Pokémon cards, and filtering by type and generation.",
       html_url: "https://github.com/LongMyNgoc/Pokedex-App",
       demo_url: "https://www.youtube.com/watch?v=sAXsprtoT9U",
       feedback_url: "https://forms.gle/feedback-link",
