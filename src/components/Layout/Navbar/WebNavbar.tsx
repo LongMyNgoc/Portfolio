@@ -3,6 +3,8 @@
 import { Home, Info, Work, Description } from "@mui/icons-material";
 import { CgGitFork } from "react-icons/cg";
 import { AiFillStar } from "react-icons/ai";
+import { BsPatchCheckFill } from "react-icons/bs";
+import { FaGraduationCap } from "react-icons/fa";
 import Link from "next/link";
 
 const WebNavbar = () => {
@@ -36,6 +38,14 @@ const WebNavbar = () => {
       >
         <Description fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
         <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Resume</span>
+      </Link>
+
+      <Link
+        href="/certificate"
+        className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110 no-underline"
+      >
+        <BsPatchCheckFill fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
+        <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Certificate</span>
       </Link>
 
       <a
