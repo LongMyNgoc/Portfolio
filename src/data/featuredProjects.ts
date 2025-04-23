@@ -5,7 +5,7 @@ export type Project = {
     demo_url: string;
     feedback_url: string;
     image_url: string;
-    type: "web" | "mobile"; // 👈 Thêm type
+    type: "web" | "mobile" | "game"; // 👈 Thêm type
   };
   
   export const featuredProjects: Project[] = [
@@ -51,6 +51,16 @@ export type Project = {
       feedback_url: "https://forms.gle/feedback-link",
       image_url: "https://raw.githubusercontent.com/LongMyNgoc/Pokedex-App/main/assets/HomeScreen.png",
       type: "mobile",
+    },
+    {
+      name: "Pokemon Ball Capture",
+      description:
+        "Pokemon Ball Capture – A simple 2D Unity game where you catch falling Pokéballs while avoiding misses. The game features increasing difficulty, level progression, and a score-based win condition.",
+      html_url: "https://github.com/LongMyNgoc/Pokemon-Ball-Capture",
+      demo_url: "https://longmyngoc.itch.io/pokemon-ball-capture",
+      feedback_url: "https://forms.gle/feedback-link",
+      image_url: "https://img.itch.zone/aW1hZ2UvMzQ5Njc4MC8yMDg1NTQ3Ny5wbmc=/original/vsYqRG.png",
+      type: "game",
     },
   ];
   

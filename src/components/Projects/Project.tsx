@@ -6,7 +6,7 @@ import { featuredProjects } from "@/data/featuredProjects";
 import type { Project } from "@/data/featuredProjects";
 
 const Project = () => {
-  const [selectedType, setSelectedType] = useState<"web" | "mobile">("web");
+  const [selectedType, setSelectedType] = useState<"web" | "mobile" | "game">("web");
 
   const filteredProjects = featuredProjects.filter(
     (project: Project) => project.type === selectedType
@@ -35,6 +35,16 @@ const Project = () => {
           }`}
         >
           📱 Mobile
+        </button>
+        <button
+          onClick={() => setSelectedType("game")}
+          className={`px-4 py-2 rounded-lg font-semibold transition-all ${
+            selectedType === "game"
+              ? "bg-blue-600 text-white"
+              : "bg-gray-200 text-black"
+          }`}
+        >
+          🎮 Game
         </button>
       </div>
 
