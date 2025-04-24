@@ -3,13 +3,13 @@
 import { useState } from "react";
 import GithubCard from "./GithubCard";
 import { featuredProjects } from "@/data/featuredProjects";
-import type { Project } from "@/data/featuredProjects";
+import type { ProjectType } from "@/data/featuredProjects";
 
 const Project = () => {
   const [selectedType, setSelectedType] = useState<"web" | "mobile" | "game">("web");
 
   const filteredProjects = featuredProjects.filter(
-    (project: Project) => project.type === selectedType
+    (project: ProjectType) => project.type === selectedType
   );
 
   return (
@@ -57,7 +57,6 @@ const Project = () => {
             description={repo.description}
             html_url={repo.html_url}
             demo_url={repo.demo_url}
-            feedback_url={repo.feedback_url}
             image_url={repo.image_url}
           />
         ))}
