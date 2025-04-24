@@ -8,9 +8,12 @@ const MainNavbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="w-full bg-transparent shadow-none">
+        <header className="w-full bg-transparent shadow-none border-b-2 border-white">
             <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-                <h2 className="text-xl font-bold text-white">Portfolio</h2>
+                {/* Chữ Portfolio nổi bật */}
+                <h2 className="text-3xl font-extrabold text-yellow-500">
+                    Portfolio
+                </h2>
 
                 {/* Desktop navbar */}
                 <div className="hidden md:flex">

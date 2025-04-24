@@ -2,6 +2,7 @@ import MainNavbar from "@/components/Layout/Navbar/MainNabar";
 import Avatar from "@/components/Layout/Avatar/Avatar";
 import Introduction from "@/components/Home/Introduction";
 import Footer from "@/components/Layout/Footer/Footer";
+import Contact from "@/components/Home/Contact";
 
 export default function Home() {
   return (
@@ -21,6 +22,9 @@ export default function Home() {
         <div className="flex justify-center md:justify-start w-full md:w-2/3 mb-16">
           <Introduction />
         </div>
+      </div>
+      <div className="mb-16">
+        <Contact />
       </div>
       <Footer />
     </div>
