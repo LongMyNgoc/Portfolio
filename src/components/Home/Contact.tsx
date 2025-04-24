@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -11,35 +11,25 @@ export default function Contact() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
           {/* Email */}
           <div className="flex items-center gap-4">
-            <Mail className="w-5 h-5 text-blue-500" />
-            <a
-              href="mailto:nguyenphilong.dev@gmail.com"
-              className="hover:underline font-medium"
-            >
-              nguyenphilong.dev@gmail.com
-            </a>
+            <span className="text-xl">✉️</span>
+            <span className="font-medium">nguyenphilong.dev@gmail.com</span>
           </div>
 
           {/* Số điện thoại */}
           <div className="flex items-center gap-4">
-            <Phone className="w-5 h-5 text-green-500" />
-            <a
-              href="tel:+84363291823"
-              className="hover:underline font-medium"
-            >
-              +84 363 291 823
-            </a>
+            <span className="text-xl text-green-500"><Phone /></span>
+            <span className="font-medium">+84 363 291 823</span>
           </div>
 
-          {/* Địa chỉ */}
+          {/* Địa chỉ chính */}
           <div className="flex items-center gap-4">
-            <MapPin className="w-5 h-5 text-red-500" />
+            <span className="text-xl text-red-500"><MapPin /></span>
             <span className="font-medium">Ho Chi Minh City, Vietnam</span>
           </div>
 
           {/* Địa chỉ thêm */}
           <div className="flex items-center gap-4">
-            <MapPin className="w-5 h-5 text-red-500" />
+            <span className="text-xl">🏡</span>
             <span className="font-medium">My Tuong 2, Nhon Hai, Ninh Hai, Ninh Thuan, Vietnam</span>
           </div>
         </div>
