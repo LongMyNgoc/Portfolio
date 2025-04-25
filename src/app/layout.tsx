@@ -17,8 +17,10 @@ export const metadata: Metadata = {
   title: "Nguyễn Phi Long | Portfolio",
   description: "Nguyễn Phi Long's Portfolio - Web Developer specializing in React, Next.js, and Node.js",
   icons: {
-    icon: "/favicon.png", 
-  },
+    icon: [
+      { url: "/favicon-v2.png", sizes: "32x32", type: "image/png" },
+    ]
+  },  
   keywords: ["Nguyễn Phi Long", "Portfolio", "Web Developer", "React", "Next.js", "Node.js", "Frontend Developer", "TypeScript Developer", "React Native"],
   authors: [{ name: "Nguyễn Phi Long", url: "https://nguyenphilongportfolio.vercel.app/" }],
   creator: "Nguyễn Phi Long",
