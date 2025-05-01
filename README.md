@@ -48,7 +48,8 @@ yarn dev
 - Website (Demo): https://nguyenphilongportfolio.vercel.app/
 
 ## Thông tin liên hệ
-📧 Email: nguyenphilong.dev@gmail.com
+- 📧 Email: nguyenphilong.dev@gmail.com
+- 🌐 Portfolio: https://nguyenphilongportfolio.vercel.app/
 
 ## Đóng góp
 Mọi ý kiến đóng góp và phản hồi đều được hoan nghênh! Bạn có thể tạo issue hoặc gửi pull request để cùng phát triển dự án.
