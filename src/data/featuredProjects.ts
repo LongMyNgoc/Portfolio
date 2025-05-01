@@ -44,7 +44,7 @@ export type ProjectType = {
         "Built a mobile Pokédex application that allows users to browse, search, and filter over 1000 Pokémon using data from the PokeAPI. Developed dynamic Pokémon detail views featuring evolutions, Mega and Gigantamax forms, descriptions, stats, abilities, and more.",
       html_url: "https://github.com/LongMyNgoc/Pokemon-Dictionary-App.git",
       demo_url: "https://youtu.be/uoEZRN--LCs?si=t145VHKBQWMe_KzA",
-      image_url: "https://github.com/LongMyNgoc/Pokemon-Dictionary-App/blob/main/assets/PokemonDetailCard.png",
+      image_url: "https://raw.githubusercontent.com/LongMyNgoc/Pokemon-Dictionary-App/main/assets/Home.png",
       type: "mobile",
     },
     {
