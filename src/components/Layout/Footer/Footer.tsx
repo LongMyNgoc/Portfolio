@@ -20,7 +20,7 @@ const Footer = () => {
 
                 {/* Phần văn bản ở giữa */}
                 <span className="text-center sm:text-left col-span-1 fw-bold">
-                    © {currentYear} Designed and Developed by [Nguyễn Phi Long]
+                   Copyright © 2025 Long Mỹ Ngọc. All rights reserved. Designed by Nguyễn Phi Long
                 </span>
 
                 {/* Phần mạng xã hội bên phải */}

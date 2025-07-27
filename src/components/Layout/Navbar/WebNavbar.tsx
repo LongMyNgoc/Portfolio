@@ -39,14 +39,6 @@ const WebNavbar = () => {
         <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Resume</span>
       </Link>
 
-      <Link
-        href="/certificate"
-        className="flex items-center gap-2 hover:text-yellow-500 transition-all duration-500 transform hover:scale-110 no-underline"
-      >
-        <BsPatchCheckFill fontSize="small" className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110" />
-        <span className="text-white hover:text-yellow-500 transition-all duration-500 transform hover:scale-110">Certificate</span>
-      </Link>
-
       <a
         href="https://github.com/LongMyNgoc/Portfolio"
         target="_blank"

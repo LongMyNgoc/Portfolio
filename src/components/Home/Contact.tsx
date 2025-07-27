@@ -30,7 +30,7 @@ export default function Contact() {
           {/* Địa chỉ thêm */}
           <div className="flex items-center gap-4">
             <span className="text-xl">🏡</span>
-            <span className="font-medium">My Tuong 2, Nhon Hai, Ninh Hai, Ninh Thuan, Vietnam</span>
+            <span className="font-medium">My Tuong 2, Vinh Hai, Khanh Hoa, Vietnam</span>
           </div>
         </div>
       </div>
