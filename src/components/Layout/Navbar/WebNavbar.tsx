@@ -3,7 +3,6 @@
 import { Home, Info, Work, Description } from "@mui/icons-material";
 import { CgGitFork } from "react-icons/cg";
 import { AiFillStar } from "react-icons/ai";
-import { BsPatchCheckFill } from "react-icons/bs";
 import Link from "next/link";
 
 const WebNavbar = () => {
