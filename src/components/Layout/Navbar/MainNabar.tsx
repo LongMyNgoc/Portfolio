@@ -1,4 +1,3 @@
-// components/MainNavbar.tsx
 "use client";
 
 import React, { useState } from "react";
@@ -26,6 +25,14 @@ const MainNavbar = () => {
                         />
                     </div>
                 </Link>
+
+                {/* Số điện thoại (chỉ hiện trên mobile) */}
+                <div className="block md:hidden bg-white/10 px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-2 shadow-md ring-1 ring-white/20 backdrop-blur-md transition hover:ring-yellow-400">
+                    <span className="text-yellow-300 text-lg">📞</span>
+                    <a href="tel:0363291823" className="text-yellow-300 tracking-wide hover:text-yellow-400">
+                        0363 291 823
+                    </a>
+                </div>
 
                 {/* Desktop navbar */}
                 <div className="hidden md:flex">

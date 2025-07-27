@@ -26,16 +26,27 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
                     isOpen ? "translate-x-0" : "-translate-x-full"
                 }`}
             >
-                {/* Header với logo */}
-                <div className="flex justify-between items-center px-8 py-2 border-b border-gray-300 flex-shrink-0">
-                    <div className="w-14 h-14 relative rounded-full overflow-hidden">
+                {/* Header với logo, số điện thoại, nút close */}
+                <div className="flex items-center justify-between px-4 py-3 border-b border-gray-300 gap-2 flex-shrink-0">
+                    {/* Logo */}
+                    <div className="w-12 h-12 relative rounded-full overflow-hidden flex-shrink-0">
                         <Image
-                            src="/assets/Logo.png" // Thay bằng đường dẫn logo của bạn
+                            src="/assets/Logo.png"
                             alt="Logo"
                             layout="fill"
                             objectFit="contain"
                         />
                     </div>
+
+                    {/* Số điện thoại */}
+                    <a
+                        href="tel:0363291823"
+                        className="flex items-center gap-2 text-yellow-500 font-semibold text-sm whitespace-nowrap hover:text-yellow-600 transition"
+                    >
+                        📞 0363 291 823
+                    </a>
+
+                    {/* Nút đóng */}
                     <button
                         onClick={onClose}
                         className="text-gray-600 hover:text-red-500 transition text-2xl"
@@ -45,7 +56,7 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
                     </button>
                 </div>
 
-                {/* Danh sách menu có thể cuộn */}
+                {/* Danh sách menu */}
                 <nav className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
                     {menuItems.map((item) => (
                         <Link
