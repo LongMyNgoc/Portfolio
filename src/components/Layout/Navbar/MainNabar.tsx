@@ -18,7 +18,7 @@ const MainNavbar = () => {
                 <Link href="/" className="flex-shrink-0 pl-4">
                     <div className="w-20 h-20 relative rounded-full overflow-hidden border border-white shadow">
                         <Image
-                            src="/assets/logo.png"
+                            src="/assets/Logo.png"
                             alt="Logo Nguyễn Phi Long"
                             fill
                             priority
