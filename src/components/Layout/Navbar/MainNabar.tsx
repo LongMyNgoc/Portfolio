@@ -15,7 +15,7 @@ const MainNavbar = () => {
         <header className="w-full bg-white/10 backdrop-blur-md border-b border-white/20 shadow-sm">
             <div className="max-w-7xl mx-auto pr-4 py-2 flex justify-between items-center">
                 {/* Logo */}
-                <Link href="/" className="flex-shrink-0 pl-4 md:pl-0">
+                <Link href="/" className="flex-shrink-0 pl-4">
                     <div className="w-20 h-20 relative rounded-full overflow-hidden border border-white shadow">
                         <Image
                             src="/assets/logo.png"

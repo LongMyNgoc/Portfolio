@@ -1,7 +1,6 @@
 'use client';
 
-import { FaGithub, FaLink, FaCommentAlt } from "react-icons/fa";
-import { useRouter } from 'next/navigation';
+import { FaGithub, FaLink } from "react-icons/fa";
 
 type GithubCardProps = {
   name: string;
@@ -18,12 +17,6 @@ const GithubCard: React.FC<GithubCardProps> = ({
   demo_url,
   image_url,
 }) => {
-  const router = useRouter();
-
-  const handleFeedbackClick = () => {
-    router.push(`/feedback?name=${encodeURIComponent(name)}`);
-  };
-
   return (
     <div className="p-4 border rounded-xl shadow-md hover:shadow-lg transition bg-white flex flex-col justify-between">
       <div>
@@ -52,12 +45,6 @@ const GithubCard: React.FC<GithubCardProps> = ({
         >
           <FaLink className="mr-2" /> Demo
         </a>
-        <button
-          onClick={handleFeedbackClick}
-          className="flex items-center px-4 py-2 bg-green-600 text-white text-sm rounded hover:bg-green-500 transition"
-        >
-          <FaCommentAlt className="mr-2" /> Feedback
-        </button>
       </div>
     </div>
   );

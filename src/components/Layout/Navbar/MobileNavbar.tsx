@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import { Close, Home, Info, Work, Description } from "@mui/icons-material";
-import { BsPatchCheckFill } from "react-icons/bs";
 import Link from "next/link";
 
 interface MobileSidebarProps {

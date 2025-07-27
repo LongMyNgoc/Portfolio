@@ -3,7 +3,6 @@
 import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope, FaPhoneAlt } from "react-icons/fa"; // Import các icon
 
 const Footer = () => {
-    const currentYear: number = new Date().getFullYear();
 
     return (
         <footer className="bg-dark text-white py-6 px-4 sm:px-6 md:px-8 w-full">

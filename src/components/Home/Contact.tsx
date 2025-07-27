@@ -12,7 +12,7 @@ export default function Contact() {
           {/* Email */}
           <div className="flex items-center gap-4">
             <span className="text-xl">✉️</span>
-            <span className="font-medium">nguyenphilong.dev@gmail.com</span>
+            <span className="font-medium break-all whitespace-normal">nguyenphilong.dev@gmail.com</span>
           </div>
 
           {/* Số điện thoại */}
