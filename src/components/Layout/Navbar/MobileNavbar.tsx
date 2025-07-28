@@ -20,15 +20,12 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
 
     return (
         <>
-            {/* Sidebar chính */}
             <div
-                className={`fixed top-0 left-0 h-screen w-4/5 max-w-xs bg-white text-black shadow-lg transform transition-transform duration-300 ease-in-out z-[2147483647] rounded-r-2xl flex flex-col ${
-                    isOpen ? "translate-x-0" : "-translate-x-full"
-                }`}
+                className={`fixed top-0 left-0 h-screen w-4/5 max-w-xs bg-white text-black shadow-lg transform transition-transform duration-300 ease-in-out z-[2147483647] rounded-r-2xl flex flex-col ${isOpen ? "translate-x-0" : "-translate-x-full"
+                    }`}
             >
-                {/* Header với logo, số điện thoại, nút close */}
-                <div className="flex items-center justify-between px-4 py-3 border-b border-gray-300 gap-2 flex-shrink-0">
-                    {/* Logo */}
+                {/* Header */}
+                <header className="flex items-center justify-between px-4 py-3 bg-gray-100 border-b border-gray-300 gap-2 flex-shrink-0">
                     <div className="w-12 h-12 relative rounded-full overflow-hidden flex-shrink-0">
                         <Image
                             src="/assets/Logo.png"
@@ -37,16 +34,12 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
                             objectFit="contain"
                         />
                     </div>
-
-                    {/* Số điện thoại */}
                     <a
                         href="tel:0363291823"
                         className="flex items-center gap-2 text-yellow-500 font-semibold text-sm whitespace-nowrap hover:text-yellow-600 transition"
                     >
                         📞 0363 291 823
                     </a>
-
-                    {/* Nút đóng */}
                     <button
                         onClick={onClose}
                         className="text-gray-600 hover:text-red-500 transition text-2xl"
@@ -54,9 +47,9 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
                     >
                         <Close fontSize="large" />
                     </button>
-                </div>
+                </header>
 
-                {/* Danh sách menu */}
+                {/* Body */}
                 <nav className="flex-1 overflow-y-auto px-4 py-6 space-y-4">
                     {menuItems.map((item) => (
                         <Link
@@ -70,9 +63,22 @@ const MobileSidebar: React.FC<MobileSidebarProps> = ({ isOpen, onClose }) => {
                         </Link>
                     ))}
                 </nav>
+
+                {/* Footer */}
+                <footer className="px-4 py-3 bg-gray-100 border-t border-gray-300 flex items-center justify-around text-sm">
+                    <button className="flex items-center gap-2 text-yellow-600 font-medium">
+                        <span className="fi fi-vn rounded-sm" style={{ width: 24, height: 16 }} />
+                        <span>Vietnamese</span>
+                    </button>
+                    <button className="flex items-center gap-2 text-yellow-600 font-medium">
+                        <span className="fi fi-gb rounded-sm" style={{ width: 24, height: 16 }} />
+                        <span>English</span>
+                    </button>
+                </footer>
+
             </div>
 
-            {/* Overlay nền đen mờ */}
+            {/* Overlay */}
             {isOpen && (
                 <div
                     className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[998]"
