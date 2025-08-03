@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 export default function Resume() {
-  const CVImage = "/CV/CV_NguyenPhiLong.png";
+  const CVImage = "/CV/NguyenPhiLong_CV_Web.png";
   const WebCV = "/CV/NguyenPhiLong_CV_Web.pdf";
 
   return (
